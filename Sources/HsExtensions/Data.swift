@@ -10,7 +10,7 @@ public extension Data {
 
 }
 
-extension Data: IHsExtension {}
+public extension Data: IHsExtension {}
 
 public extension HsExtension where Base == Data {
 
