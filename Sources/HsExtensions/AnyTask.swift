@@ -6,6 +6,7 @@ import Foundation
 /// when the `AnyTask` is destroyed, however you can choose to opt out of this behaviour if you prefer to control cancellation manually.
 ///
 /// Since the task is type-erased, there is no API to retrieve the result of the task, but you can check if it is cancelled.
+@available(macOS 10.15, *)
 public final class AnyTask {
 
     /// Whether the task is cancelled.
